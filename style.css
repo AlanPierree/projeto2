@@ -1,0 +1,88 @@
+/* Centralizar todo o conteúdo */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa toda a altura da janela */
+    background-image: url("cena-de-fantasia-escura_23-2151136068.avif"); /* Imagem de fundo */
+    background-size: cover; /* Cobrir toda a tela */
+    background-position: center; /* Centralizar a imagem */
+    background-attachment: fixed; /* Fixar a imagem */
+    background-repeat: no-repeat; /* Não repetir a imagem */
+    font-family: Arial, sans-serif; /* Fonte limpa */
+}
+
+/* Estilo do formulário */
+#sintomaForm {
+    text-align: center;
+    background-color: #006d6d; /* Fundo azul ciano */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    width: 400px;
+}
+
+/* Título */
+header h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #ff9102;
+}
+
+/* Select (dropdown) */
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Botão */
+button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    background-color: #007bff; /* Azul */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #00b318; /* verde mais escuro no hover */
+}
+
+/* Mensagem de resultado */
+#mensagemConfirmar {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px; /* Tamanho grande */
+    font-weight: bold;
+    color: #080808;
+    background-color: #f8f9fa; /* Fundo claro */
+    padding: 15px;
+    border: 2px solid #007bff; /* Borda azul */
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    background-color: #930000; /* Fundo azul */
+    color: white; /* Texto branco */
+    padding: 15px; /* Espaçamento interno */
+    position: fixed; /* Mantém o rodapé fixado na parte inferior */
+    bottom: 0; /* Posicionado na base */
+    left: 0; /* Inicia na extremidade esquerda */
+    width: 100%; /* Garante que o rodapé ocupe 100% da largura */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve no topo */
+    font-size: 14px; /* Tamanho de fonte menor */
+    z-index: 100; /* Garante que o rodapé fique acima de outros elementos */
+}
