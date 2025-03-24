@@ -27,9 +27,16 @@ body {
 /* Título */
 header h1 {
     text-align: center;
-    font-size: 30px;
-    margin-bottom: 20px;
-    color: #ff9102;
+    font-size: 4em;
+    margin-bottom: 1em;
+    color: #930000;
+    text-shadow: rgb(255, 0, 0) 0.1em 0.1em 0.2em
+}
+
+#seleciona {
+    font-size: 1.1em;
+    
+
 }
 
 /* Select (dropdown) */
@@ -38,7 +45,7 @@ select {
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #cccccc;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 16px;
 }
 
