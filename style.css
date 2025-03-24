@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh; /* Ocupa toda a altura da janela */
-    background-image: url("cena-de-fantasia-escura_23-2151136068.avif"); /* Imagem de fundo */
+    background-image: url("depositphotos_327115254-stock-illustration-library-book-shelves-cartoon-vector.jpg"); /* Imagem de fundo */
     background-size: cover; /* Cobrir toda a tela */
     background-position: center; /* Centralizar a imagem */
     background-attachment: fixed; /* Fixar a imagem */
@@ -15,9 +15,8 @@ body {
 }
 
 /* Estilo do formulário */
-#sintomaForm {
-    text-align: center;
-    background-color: #006d6d; /* Fundo azul ciano */
+#autform {
+    background-color: #009130; /* Fundo azul ciano */
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
@@ -29,8 +28,8 @@ header h1 {
     text-align: center;
     font-size: 4em;
     margin-bottom: 1em;
-    color: #930000;
-    text-shadow: rgb(255, 0, 0) 0.1em 0.1em 0.2em
+    color: #ffffff;
+    text-shadow: #000000 0.1em 0.1em 0.2em;
 }
 
 #seleciona {
@@ -44,7 +43,7 @@ select {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #cccccc;
+    border: 1px solid #000000;
     border-radius: 10px;
     font-size: 16px;
 }
@@ -55,8 +54,9 @@ button {
     width: 100%;
     padding: 15px;
     font-size: 16px;
-    background-color: #007bff; /* Azul */
-    color: white;
+    background-color: #ff6600;
+    color: #000000;
+    font-weight: bold;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -64,7 +64,7 @@ button {
 }
 
 button:hover {
-    background-color: #00b318; /* verde mais escuro no hover */
+    background-color: #fffb00; /* verde mais escuro no hover */
 }
 
 /* Mensagem de resultado */
